@@ -1,0 +1,10 @@
+In this article, the people testing this recognize that using Wi-Fi fingerprints (such as RSS)  for device-free passive indoor localization is undermined by inconsistencies in the measured signal environment.
+Some examples of this are fluctuations in signal strength due to movement, multipath effects, body shadowing, environmental changes, and time-varying channel conditions. 
+To mitigate this, they propose a method that first models the fingerprint data in a way that captures and filters out the high-variance components. 
+They apply a specific statistical filtering approach to suppress those fingerprint measurements that deviate strongly from the typical signal pattern at a given location.
+After that part is done, they refine the fingerprint matching scheme by incorporating temporal stability constraints. 
+Instead of treating each fingerprint measurement on their own, they compare online measurements to a stable baseline that has been collected after filtering.
+This helps reduce the impact of transient signal fluctuations. 
+Finally, their localization algorithm selects only those access point measurements or sub-channels whose signal behaviour has been shown to be consistent over time. 
+By doing so, they reduce the mismatch between offline reference fingerprints and online measurements, yielding improved localisation accuracy and robustness in the face of signal inconsistency.
+https://www.researchgate.net/publication/317570809_Taming_the_Inconsistency_of_Wi-Fi_Fingerprints_for_Device-Free_Passive_Indoor_Localization 
