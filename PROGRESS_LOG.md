@@ -38,7 +38,9 @@
 #### Isaac Spann
 | Contribution | Date | Day of Week | Repository Commit ID |
 | - | - | - | - |
-| | | | |
+| Revised my individual block diagram and submitted it to the group on Thursday 11/6. 
+| Am continuing to work on individual Schematic Diagram and will ty to get it in on Monday 11/10. 
+| | |
 
 #### Josiah Spann
 | Contribution | Date | Day of Week | Repository Commit ID |
